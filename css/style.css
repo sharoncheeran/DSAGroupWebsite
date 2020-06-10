@@ -1,0 +1,130 @@
+/*=============================================================================
+|      Editors:  Martyn Fitzgerald - 16025948
+|                Sharon Cheeran    - 17012330
+|                Sharmin J Rony    - 16025948
+|                Josh Boyce    	   - 16025948
+|
+|  Module Code:  UFCFV4-30-2
+| Module Title:  Data, Schemas & Applications
+|                
+|   Instructor:  Prakash Chatterjee / Glyn Watkins
+|     Due Date:  14/03/2019
+|
+|  Description:  Adding the all of the style of an HTML documents. Throughout
+|				  the whole website.
+|
+*===========================================================================*/
+/* 
+	Adding style to a certain HTML element
+*/
+body {
+	color:#9da5b3;
+	background-color:#282c34;
+}
+h1,h2,h3,h4{
+	color:#fff;
+	text-align:center;
+}
+a {
+	color: #558efc;
+	transition: .2s background,.2s color;
+}
+a, a:focus, a:hover {
+	text-decoration: none;
+}
+hr {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border: 0;
+	border-top: 1px solid #fff;
+}
+footer {
+    width: 100%;
+	background-color:#21252B;
+   color: white;
+   text-align: center;
+}
+/* 
+	Adding style to a certain HTML element by ID
+*/
+#mapCanvas {
+	width:100%;
+	height:100%;
+	max-width: 1170px;
+	max-height: 700px;
+	margin: auto;
+}
+.mappingRow
+{
+	padding-bottom:70px;
+}
+/* 
+	Adding style to a certain HTML element by class
+*/
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+}
+.navbar-dark {
+	background-color:#21252B;
+	border-color: #21252B;
+}
+.navbar-default .navbar-brand {
+	color:#fff;
+}
+.navbar-default .navbar-nav>li>a {
+	color:#9da5b3;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color:#fff;
+	background-color: transparent;
+}
+.mySlides {
+	display:none;
+}
+.w3-display-container {    
+	width: 100%;
+	height: 300px;
+    margin-bottom: 50px;
+}
+.container {
+	width: 100%;
+	max-width: 100%;
+}
+.rssImg{
+	width: 40px;
+	height: 40px;
+	margin: 0px;
+}
+/* Style the buttons inside the tab */
+.tab button {
+    outline: none;
+	border:none;
+	border-bottom: solid 5px rgba(255, 255, 255, 0);
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    background-color: rgba(204, 204, 204, 0);
+	color:#9da5b3;
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+	border-bottom: solid 5px #9da5b3;
+}
+/* Create an active/current tablink class */
+.tab button.active {
+	border-bottom: solid 5px #fff;
+}
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 3px 12px;
+    width: 150px;
+    margin: 5px auto;
+	align-content: center;
+	color:#9da5b3;
+}
+
